@@ -1,0 +1,181 @@
+{
+  "contractName": "GOWTokenSale",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058203ecc7ad564b97f9d627bc0d336c513d43d7a34141025312357203b225e36282b0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058203ecc7ad564b97f9d627bc0d336c513d43d7a34141025312357203b225e36282b0029",
+  "sourceMap": "25:144:0:-;;;61:105;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:105:0;25:144;;;;;;",
+  "deployedSourceMap": "25:144:0:-;;;;;",
+  "source": "pragma solidity ^0.4.2;\n\ncontract GOWTokenSale{\n    \n   \n    constructor () public {\n        // Assign an admin\n        // Token Contract\n        // Token Price\n    }\n\n}",
+  "sourcePath": "/home/gow/projects/solidity/token_sale/contracts/GOWTokenSale.sol",
+  "ast": {
+    "absolutePath": "/home/gow/projects/solidity/token_sale/contracts/GOWTokenSale.sol",
+    "exportedSymbols": {
+      "GOWTokenSale": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "GOWTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "83:83:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "73:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "83:0:0"
+            },
+            "scope": 6,
+            "src": "61:105:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "25:144:0"
+      }
+    ],
+    "src": "0:169:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/gow/projects/solidity/token_sale/contracts/GOWTokenSale.sol",
+    "exportedSymbols": {
+      "GOWTokenSale": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "GOWTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "83:83:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "73:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "83:0:0"
+            },
+            "scope": 6,
+            "src": "61:105:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "25:144:0"
+      }
+    ],
+    "src": "0:169:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.23+commit.124ca40d.Emscripten.clang"
+  },
+  "networks": {
+    "5780": {
+      "events": {},
+      "links": {},
+      "address": "0x4a8dd30b90710f62c1e415464507946130c441e1",
+      "transactionHash": "0xdb7b3e6c32672c6ec828585fafff09e4cd4c95e5254fb0939b461bd5f574d885"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-05-23T06:11:01.429Z"
+}
